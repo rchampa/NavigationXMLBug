@@ -11,5 +11,9 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="es.ricardo.anyfeature.LoginFragment"
-        android:label="LoginFragment" />
+        android:label="LoginFragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_dumbFragment2"
+            app:destination="@id/dumbFragment2" />
+    </fragment>
 </navigation>
