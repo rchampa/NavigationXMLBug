@@ -31,6 +31,11 @@ android {
 
 dependencies {
 
+    def retrofitVersion = "2.9.0"
+    api("com.squareup.retrofit2:retrofit:$retrofitVersion")
+    api("com.squareup.retrofit2:converter-gson:$retrofitVersion")
+    api("com.squareup.retrofit2:retrofit-mock:$retrofitVersion")
+    api("com.squareup.retrofit2:converter-scalars:$retrofitVersion")
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
